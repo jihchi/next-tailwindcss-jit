@@ -1,20 +1,21 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
+
+const styles = {};
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className="min-h-screen py-0 px-2 flex flex-col justify-center items-center">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
+      <main className="py-20 px-0 flex-1 flex flex-col justify-center items-center">
+        <h1 className="m-0 leading-[1.15] text-[4rem] text-center">
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
+        <p className="leading-normal text-2xl">
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
